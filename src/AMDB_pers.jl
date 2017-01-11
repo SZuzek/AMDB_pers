@@ -1,4 +1,4 @@
-module AMDB
+module AMDB_pers
 
 using IntervalSets
 using AutoHashEquals
