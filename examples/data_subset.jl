@@ -6,7 +6,7 @@
 #
 # NOTE: compressing via GZip gives ≈1/6 file size and +20% read time.
 ######################################################################
-using AMDB
+using AMDB_pers
 using GZip
 
 data_dir = "/Data/AMDB/RawTables/"
