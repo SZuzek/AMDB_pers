@@ -1,14 +1,14 @@
 ######################################################################
 # counting various spell types
 ######################################################################
-using AMDB
+using AMDB_pers
 # you may need to Pkg.add these...
 using DataStructures            
 using GZip
 using UnicodePlots
 
 # you only need to read the data once per session
-records = GZip.open(deserialize, "/Data/AMDB/subsample/AMDB_subsample.jls.gz", "r")
+records = GZip.open(deserialize, "M:/Data/AMDB/subsample/AMDB_subsample.jls.gz", "r")
 
 """
 Demo for counting the distribution of the number of person spells.
